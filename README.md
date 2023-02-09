@@ -1,4 +1,4 @@
-# Karibu
+# Karibu [![](https://jitpack.io/v/MamboBryan/Karibu.svg)](https://jitpack.io/#MamboBryan/Karibu)
 
 POC of a library that requires a file to build successfully.
 
