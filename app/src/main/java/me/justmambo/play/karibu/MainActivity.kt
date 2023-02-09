@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.tooling.preview.Preview
+import me.justmambo.libraries.greet.Greet
 import me.justmambo.play.karibu.ui.theme.KaribuTheme
 
 class MainActivity : ComponentActivity() {
@@ -37,7 +38,7 @@ fun Greeting() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Karibu Mambo!")
+        Text(text = Greet.sayWelcome())
     }
 }
 

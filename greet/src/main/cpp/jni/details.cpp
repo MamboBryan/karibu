@@ -6,5 +6,5 @@
 using namespace std;
 
 string getName() {
-    return "Mambo";
+    return "";
 }
